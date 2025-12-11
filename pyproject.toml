@@ -188,6 +188,7 @@ source = [
 [tool.coverage.run]
 branch = true
 omit = [
+    "*/__init__.py",
     "*/_version.py",
     "*/_cli.py",
     "*/tests/*",
