@@ -42,7 +42,7 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
-Source = "https://github.com/juaml/juni-julio"
+Source = "https://github.com/juaml/junifer-julio"
 
 [project.scripts]
 julio = "julio._cli:cli"
@@ -144,8 +144,8 @@ directory = "changelog.d"
 filename = "CHANGELOG.md"
 start_string = "<!-- towncrier release notes start -->\n"
 underlines = ["", "", ""]
-title_format = "## [{version}](https://github.com/juaml/juni-julio/tree/{version}) - {project_date}"
-issue_format = "[#{issue}](https://github.com/juaml/juni-julio/issues/{issue})"
+title_format = "## [{version}](https://github.com/juaml/junifer-julio/tree/{version}) - {project_date}"
+issue_format = "[#{issue}](https://github.com/juaml/junifer-julio/issues/{issue})"
 
 [[tool.towncrier.type]]
 directory = "security"

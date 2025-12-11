@@ -1,2 +1,2 @@
-# juni-julio
+# junifer-julio
 Junifer feature registry

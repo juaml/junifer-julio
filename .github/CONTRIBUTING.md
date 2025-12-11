@@ -2,7 +2,7 @@
 
 ## Setting up the local development environment
 
-1. Fork the https://github.com/juaml/juni-julio repository on GitHub. If you
+1. Fork the https://github.com/juaml/junifer-julio repository on GitHub. If you
    have never done this before,
    [follow the official guide](https://guides.github.com/activities/forking/).
 
