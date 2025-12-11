@@ -130,7 +130,7 @@ known-third-party =[
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-testpaths = "tests"
+testpaths = "julio"
 log_cli_level = "INFO"
 xfail_strict = true
 addopts = [
@@ -178,3 +178,28 @@ showcontent = true
 directory = "fixed"
 name = "Fixed"
 showcontent = true
+
+[tool.coverage.paths]
+source = [
+    "julio",
+    "*/site-packages/julio",
+]
+
+[tool.coverage.run]
+branch = true
+omit = [
+    "*/_version.py",
+    "*/_cli.py",
+    "*/tests/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    # Have to re-enable the standard pragma
+    "pragma: no cover",
+    # Type checking if statements should not be considered
+    "if TYPE_CHECKING:",
+    # Don't complain if non-runnable code isn't run:
+    "if __name__ == .__main__.:",
+]
+precision = 2
